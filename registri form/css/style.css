@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #CED6C2;
+    overflow: hidden;
+}
+.fbody{
+    width: 50%;
+    margin: 100px auto;
+    background-color: #90BCD7;
+    padding: 25px;
+   
+
+}
+.fhead{
+    text-align: center;
+    border-bottom: 2px solid #566696;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom:30 px;
+}
+.ffhead{
+    font-size: 12px;
+    padding: 10px;
+    background-color: #A0699C;
+    text-align: center;
+    color: white;
+}
+.ffhead h2{
+    font-size: 12px;
+    color: #566696;
+}
+
+.label{
+    font-size: 25px;
+}
+.inp{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 35px;
+}
+.fn{
+    width: 34%;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    color:slategray;
+    font-style: normal;  
+   
+}
+input[type=date]{
+    width: 35%;
+    color: black;
+    border-radius: 5px;
+}
+select{
+    color: black;
+    width: 25%;
+    height: 30%;
+    border-radius: 10px;
+}
+option{
+    color: #A0699C;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.fs{
+    margin: 6px 15px 15px;
+}
+input[type=submit]{
+    width: 60%;
+    height: 40px;
+    color: white;
+    display: block;
+    border-radius: 15px;
+    margin: 25px auto;
+    background-color:#566696;
+    font-style: initial;
+
+}
